@@ -15,6 +15,7 @@ type PackageJson = _PackageJson & {
 
 const execAsync = promisify(exec);
 
+// oxlint-disable-next-line typescript-eslint/no-unnecessary-type-parameters
 function parseJSON<T>(content: string): T {
   // oxlint-disable-next-line typescript/no-unsafe-type-assertion
   return JSON.parse(content) as T;
