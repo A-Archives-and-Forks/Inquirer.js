@@ -1,6 +1,6 @@
 {
   "name": "@inquirer/rawlist",
-  "version": "5.2.7",
+  "version": "5.2.8",
   "description": "Inquirer rawlist prompt",
   "keywords": [
     "answer",
@@ -73,7 +73,7 @@
     "tsc": "tsc"
   },
   "dependencies": {
-    "@inquirer/core": "^11.1.8",
+    "@inquirer/core": "^11.1.9",
     "@inquirer/type": "^4.0.5"
   },
   "devDependencies": {
